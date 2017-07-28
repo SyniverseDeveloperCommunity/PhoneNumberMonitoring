@@ -35,11 +35,12 @@ input_file_name = "phonenumbers.txt"
 # for over an hour.
 
 # this is the delivery configuration.
-delivery_configuration_id = "676"
+delivery_configuration_id = "[your-delivery-config-here]"
 # this defines the end point that notifications about the subscribed phone numbers should be sent to.
 # This should have already been provisioned at the Syniverse Developer Community portal at
-# https://developer.syniverse.com/index.html#!/ess/delivery-configurations
-
+# https://developer.syniverse.com/index.html#!/ess/delivery-configurations.
+# for example the delivery configuration id I used was 
+# delivery_configuration_id = "676"
 
 print '### Starting Engines ###\n'
 
