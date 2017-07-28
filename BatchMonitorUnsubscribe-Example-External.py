@@ -33,13 +33,6 @@ input_file_name = "phonenumbers.txt"
 # the only difference to the below code would be that you have to wait
 # for over an hour.
 
-# this is the delivery configuration.
-delivery_configuration_id = "676"
-# this defines the end point that notifications about the subscribed phone numbers should be sent to.
-# This should have already been provisioned at the Syniverse Developer Community portal at
-# https://developer.syniverse.com/index.html#!/ess/delivery-configurations
-
-
 print '### Starting Engines ###\n'
 
 ## Step 1: We will create the input file in Media Storage
